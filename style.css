@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#title {
+    color: #0060fd;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Century Gothic";
+}
+
+.logo-center {
+    display: inline;
+    vertical-align: middle;
+}
+
+.navigation-menu {
+    background-color: #c5c5c5;
+    overflow: hidden;
+}
+
+.navigation-menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigation-menu ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+.navigation-menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;}
+
+.navigation-menu ul li a:hover {background-color: #575757;}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.left-sidebar, .right-sidebar {
+    background-color: #f9f9f9;
+}
+.left-sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-sidebar {
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #e2e2e2;
+    padding: 20px;
+    text-align: center;
+}
+svg {
+    fill:black;
+}
+
+svg:hover {
+    fill:#0060fd;
+}
+.links a {
+    text-decoration: none;
+}
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;}
