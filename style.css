@@ -15,7 +15,9 @@ header, footer {
     padding: 10px;
 }
 
-
+.links a {
+    text-decoration: none;
+}
 #title {
     color: #0060fd;
     font-weight: bold;
@@ -40,15 +42,25 @@ header, footer {
 
 .navigation-menu ul li {
     display: inline;
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 
 .navigation-menu ul li a {
     color: #ffffff;
     text-decoration: none;
-    padding: 14px 20px;}
-
+    padding: 14px 20px;
+    width: 25%;
+}
 .navigation-menu ul li a:hover {background-color: #575757;}
+.navigation-menu a {
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center
+}
 
 .container {
     display: grid;
@@ -81,9 +93,7 @@ svg {
 svg:hover {
     fill:#0060fd;
 }
-.links a {
-    text-decoration: none;
-}
+
 footer {
     background-color: #333333;
     color: #ffffff;
