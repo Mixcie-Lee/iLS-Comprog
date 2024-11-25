@@ -1,0 +1,108 @@
+/* SHORTCUTSSS */
+:root {
+  --font-1: "Century Gothic";
+  --themecolor: white;
+  --logocolor: #0060fd;
+  --fontsize: 1.875rem;
+  --bgcolor: #133e87;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+header {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+/*LOGO AND APP NAME */
+#title {
+  font-family: var(--font-1);
+  font-weight: bold;
+  color: var(--logocolor);
+  font-size: var(--fontsize);
+}
+.logo-center {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.625rem 0rem;
+}
+/* NAV BAR HEADER*/
+.navbar {
+  position: relative;
+  z-index: 999;
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 0.625rem 0rem;
+  margin-left: 40px;
+  vertical-align: middle;
+  font-family: var(--font-1);
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+  background-color: rgba(212, 212, 212, 0.552);
+  width: 30%;
+}
+.navbar li a {
+  display: block;
+}
+.navbar ul ul li {
+  display: block;
+}
+.navbar li:hover ul {
+  display: block;
+}
+.navbar ul ul li a:hover {
+  background-color: rgba(198, 198, 198, 0.708);
+  display: block;
+}
+/* REMOVE UNDERLINE UNDER LINKS */
+a {
+  text-decoration-line: none;
+  display: block;
+  color: var(--themecolor);
+  font-family: var(--font-1);
+}
+/* INDEX IMAGE BG */
+.main-bg {
+  background-color: var(--bgcolor);
+  width: 900px;
+  height: 1300px;
+  position: relative;
+  border-radius: 80px;
+  position: absolute;
+  top: -650px;
+  left: 130px;
+  rotate: 80deg;
+  overflow-x: hidden;
+  max-width: 100%;
+  z-index: -2;
+}
+.main-bg2 {
+  background-color: #608bc1;
+  width: 900px;
+  height: 1300px;
+  position: relative;
+  border-radius: 80px;
+  position: absolute;
+  top: -630px;
+  left: 250px;
+  rotate: 80deg;
+  overflow-x: hidden;
+  max-width: 100%;
+  z-index: -3;
+}
