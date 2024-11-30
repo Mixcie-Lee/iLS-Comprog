@@ -1,0 +1,13 @@
+#ok {
+  font-family: var(--font-1);
+  display: block;
+  padding: 5%;
+  padding-top: 8%;
+  color: var(--themecolor);
+}
+
+#desc {
+  color: var(--themecolor);
+  max-width: 50%;
+  padding-left: 5%;
+}
