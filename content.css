@@ -1,13 +1,28 @@
+:root {
+  --color1: white;
+}
 #ok {
   font-family: var(--font-1);
   display: block;
   padding: 5%;
-  padding-top: 8%;
-  color: var(--themecolor);
+  padding-top: 9.5%;
+  padding-bottom: 4%;
+  color: var(--color1);
+  font-size: 40px;
 }
 
 #desc {
-  color: var(--themecolor);
+  color: var(--color1);
   max-width: 50%;
   padding-left: 5%;
+  font-size: 1.1rem;
+}
+
+#truck {
+  display: flex;
+  position: absolute;
+  top: -14%;
+  right: -10%;
+  transform: scale(75%);
+  rotate: -9deg;
 }
