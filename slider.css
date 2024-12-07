@@ -1,0 +1,56 @@
+.slider-container {
+  display: flex;
+  position: absolute;
+  width: 30%;
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
+  height: 42%;
+  transform: translateX(10%);
+  border-radius: 80px;
+  box-shadow: 0px 0px 10px black;
+  right: 12%;
+  top: 25%;
+  transform: scale(140%);
+}
+.slider {
+  width: 100%;
+  display: flex;
+  height: auto;
+  transition: transform 1s ease;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30%;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  width: 20%;
+  height: 20%;
+  background-color: transparent;
+  border-radius: 100px;
+}
+
+button.prev {
+  right: 33%;
+  background-image: url(assets/ARROW\ LEFT.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+button.next {
+  right: -10%;
+  background-image: url(assets/ARROW\ RIGHT.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
