@@ -1,10 +1,20 @@
 /* SHORTCUTSSS */
 :root {
   --font-1: "Century Gothic";
+  --font-2: "Mont"
   --themecolor: rgb(0, 0, 0);
   --logocolor: #0060fd;
   --fontsize: 1.875rem;
-  --bgcolor: #133e87;
+  --bgcolor:#0d5fdc;
+}
+
+@font-face {
+  font-family: Mont;
+  src: url(assets/Mont.otf);
+}
+@font-face {
+  font-family: Nexa;
+  src: url(assets/Nexa.ttf);
 }
 * {
   box-sizing: border-box;
@@ -17,7 +27,7 @@ body {
   background-repeat: no-repeat;
 }
 header {
-  z-index: 1;
+  z-index: 11;
   display: flex;
   align-items: center;
   position: fixed;
@@ -39,6 +49,7 @@ header {
 /* NAV BAR HEADER*/
 .navbar {
   position: relative;
+  margin-left: 4%;
   z-index: 999;
 }
 .navbar ul li {
@@ -48,11 +59,19 @@ header {
   vertical-align: middle;
   font-family: var(--font-1);
   transition: font-size 0.5s;
+  font-size: 25px;
 }
 
 .navbar ul li:hover {
-  font-size: 1.25rem;
+  font-size: 27px;
+  background-color: #133e87;
+  border-radius: 20px;
 }
+
+.navbar ul li:hover a {
+  color: white;
+}
+
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -61,13 +80,19 @@ header {
 .navbar ul ul {
   position: absolute;
   top: 100%;
+  left: 50%;
   display: none;
-  background-color: rgba(212, 212, 212, 0.552);
+  background-color: rgba(212, 212, 212, 0.888);
   width: 30%;
+  border-radius: 5px;
+}
+.navbar ul ul:hover li {
+  color: white;
 }
 .navbar li a {
   display: block;
 }
+
 .navbar ul ul li {
   display: block;
 }
@@ -77,6 +102,7 @@ header {
 .navbar ul ul li a:hover {
   background-color: rgba(198, 198, 198, 0.708);
   display: block;
+  color: #ffffff;
 }
 /* REMOVE UNDERLINE UNDER LINKS */
 a {
@@ -85,36 +111,6 @@ a {
   color: var(--themecolor);
   font-family: var(--font-1);
 }
-/* INDEX IMAGE BG */
-/* .main-bg {
-  background-color: var(--bgcolor);
-  width: 50%;
-  height: 250%;
-  position: relative;
-  border-radius: 5rem;
-  position: absolute;
-  top: -105%;
-  left: 29%;
-  rotate: 80deg;
-  overflow-x: hidden;
-  max-width: 100%;
-  z-index: -2;
-}
-
-.main-bg2 {
-  background-color: #608bc1;
-  width: 50%;
-  height: 250%;
-  position: relative;
-  border-radius: 5rem;
-  position: absolute;
-  top: -100%;
-  left: 35%;
-  rotate: 80deg;
-  overflow-x: hidden;
-  max-width: 100%;
-  z-index: -3;
-} */
 
 .loadingscreenbro {
   position: fixed;
@@ -136,7 +132,7 @@ a {
   height: 2px;
   background-color: black;
   position: absolute;
-  transform: translateY(5rem);
+  transform: translateY(80px);
 }
 
 #motor {
@@ -151,7 +147,7 @@ a {
     transform: translateX(-50%);
   }
   100% {
-    transform: translateX(280%);
+    transform: translateX(550%);
   }
 }
 @keyframes fade {

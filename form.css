@@ -1,0 +1,76 @@
+/* Form container */
+.form-container {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 550px;
+  height: 600px;
+  float: right;
+  margin-right: 17%;
+  margin-top: -27%;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 27px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  color: #0033a0;
+  font-family: Mont;
+
+  margin-bottom: 8px;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #0033a0;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  color: #ccc;
+}
+
+select {
+  appearance: none;
+  background: #fff
+    url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%230033a0' d='M5 8l-5-5h10z'/%3E%3C/svg%3E")
+    no-repeat right 10px center;
+  background-size: 10px;
+}
+
+/* Submit button */
+.submit-btn {
+  width: 60%;
+  padding: 12px;
+  background-color: #0033a0;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: -3%;
+  margin-left: 20%;
+}
+
+.submit-btn:hover {
+  background-color: #0056e3;
+}

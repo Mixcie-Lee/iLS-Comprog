@@ -1,101 +1,106 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-header, footer {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 10px;
+header,
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
 }
 
 .links a {
-    text-decoration: none;
+  text-decoration: none;
 }
 #title {
-    color: #0060fd;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: "Century Gothic";
+  color: #0060fd;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Century Gothic";
 }
 
 .logo-center {
-    display: inline;
-    vertical-align: middle;
+  display: inline;
+  vertical-align: middle;
 }
 
 .navigation-menu {
-    background-color: #c5c5c5;
-    overflow: hidden;
+  background-color: #c5c5c5;
+  overflow: hidden;
 }
 
 .navigation-menu ul {
-    list-style-type: none;
-    text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
 
 .navigation-menu ul li {
-    display: inline;
-    padding: 10px 0px;
+  display: inline;
+  padding: 10px 0px;
 }
 
 .navigation-menu ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 14px 20px;
-    width: 25%;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 20px;
+  width: 25%;
 }
-.navigation-menu ul li a:hover {background-color: #575757;}
+.navigation-menu ul li a:hover {
+  background-color: #575757;
+}
 .navigation-menu a {
-    float: left;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    gap: 10px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 10px;
+  padding: 20px;
 }
 
-.left-sidebar, .right-sidebar {
-    background-color: #f9f9f9;
+.left-sidebar,
+.right-sidebar {
+  background-color: #f9f9f9;
 }
-.left-sidebar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.left-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .right-sidebar {
-    padding: 20px;
+  padding: 20px;
 }
 
 .main-content {
-    background-color: #e2e2e2;
-    padding: 20px;
-    text-align: center;
+  background-color: #e2e2e2;
+  padding: 20px;
+  text-align: center;
 }
 svg {
-    fill:black;
+  fill: black;
 }
 
 svg:hover {
-    fill:#0060fd;
+  fill: #0060fd;
 }
 
 footer {
-    background-color: #333333;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;}
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}

@@ -33,12 +33,11 @@ button {
   font-size: 30px;
   border: none;
   padding: 10px;
-  cursor: pointer;
+  /* cursor: pointer; */
   z-index: 10;
   width: 20%;
   height: 20%;
   background-color: transparent;
-  border-radius: 100px;
 }
 
 button.prev {
@@ -53,4 +52,11 @@ button.next {
   background-image: url(assets/ARROW\ RIGHT.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.booknow {
+  position: absolute;
+  right: 9%;
+  top: 11.5%;
+  z-index: 10;
 }
