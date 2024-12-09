@@ -68,3 +68,22 @@
   transform: scale(75%);
   rotate: -9deg;
 }
+
+#ClipBoard {
+  right: 10%;
+  top: 10%;
+  transform: scale(130%);
+  position: absolute;
+}
+#telephone {
+  right: 10%;
+  top: 15%;
+  transform: scale(130%);
+  position: absolute;
+}
+#about {
+  right: 10%;
+  top: 15%;
+  transform: scale(140%);
+  position: absolute;
+}
